@@ -3,5 +3,4 @@ markdown: redcarpet
 pygments: true
 
 baseurl: /mysite
-b2: /fall2013
-b3: /gethere
+baseu: /porsche
