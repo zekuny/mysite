@@ -13,13 +13,13 @@ title: Your New Jekyll Site
   
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> Zekun Yu <a href="{{site.baseurl}}/{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="/jekyll/{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
   
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> hahaha <a href="{{site.baseurl}}/{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{site.baseurl}}/{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
